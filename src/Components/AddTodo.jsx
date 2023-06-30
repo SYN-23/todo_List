@@ -106,7 +106,7 @@ const AddTodo = () => {
                 </div>
             </div> 
             <div className='flex justify-center my-10'>
-                <button type='submit' >Add</button>
+                <button type='submit' className='rounded-lg border-solid border-2 border-white-500 px-4 py-3 font-medium text-sm/[16px] font-inherit transition ease-in duration 300' >Add</button>
             </div>
             
           </form>

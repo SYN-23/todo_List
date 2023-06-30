@@ -42,7 +42,7 @@ const TodoBlock = ({todo}) => {
 
             <div className='space-x-5'>
                 {/* <button onClick={updateHandel}>Update</button> */}
-                <button onClick={(e)=>deleteHandel(e,todo.id)}>Delete</button>
+                <button className='rounded-lg border-solid border-2 border-white-500 px-4 py-3 font-medium text-sm/[16px] font-inherit transition ease-in duration 300' onClick={(e)=>deleteHandel(e,todo.id)}>Delete</button>
             </div>
             </div>
         </div>
